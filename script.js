@@ -8,7 +8,7 @@ function carregar() {
 
     if (hora >= 0 && hora < 12) {
         img.src="imagens/manha1.png"
-        document.body.style.background = "#e2ccd9f"
+        document.body.style.background = "#2ccd9f"
     } else if (hora >= 12 && hora < 18) {
         img.src="imagens/tarde1.png"
         document.body.style.background = "#b9846f"
